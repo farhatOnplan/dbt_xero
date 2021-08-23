@@ -4,6 +4,7 @@ config-version: 2
 require-dbt-version: [">=0.20.0"]
 
 vars:
+  xero_database: five_tran_citruxad_us_xero
   xero:
     account: "{{ ref('stg_xero__account') }}" 
     contact: "{{ ref('stg_xero__contact') }}" 
